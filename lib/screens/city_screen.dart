@@ -47,7 +47,7 @@ class _CityScreenState extends State<CityScreen> {
                   },
                 ),
               ),
-              FlatButton(
+              RaisedButton(
                 onPressed: () {
                   Navigator.pop(context,cityName);
                 },
@@ -55,6 +55,7 @@ class _CityScreenState extends State<CityScreen> {
                   'Get Weather',
                   style: kButtonTextStyle,
                 ),
+                color: Colors.black.withOpacity(0.05),
               ),
             ],
           ),

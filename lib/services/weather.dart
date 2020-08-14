@@ -50,7 +50,7 @@ class WeatherModel {
       return 'You\'ll need an ☂️';
     } else if (condition < 700) {
       return 'You\'ll need 🧣 and 🧤';
-    } else if (temp > 25 || condition == 800) {
+    } else if (temp > 25 && condition == 800) {
       return 'It\'s 🍦 time';
     } else if (temp >= 20) {
       return 'Time for shorts and 👕';
